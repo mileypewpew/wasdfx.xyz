@@ -1,0 +1,47 @@
+Node.js and npm/Bun
+
+node_modules/ npm-debug.log yarn-error.log bun.lockb package-lock.json yarn.lock
+
+# Environment variables
+
+.env .env.local .env.development .env.production .env.\*.local
+
+# Build outputs
+
+dist/ build/ .next/ # In case Next.js is used in a monorepo setup out/
+
+# TypeScript
+
+\*.tsbuildinfo
+
+# Logs
+
+logs/ \*.log *.log.*
+
+# Temporary files
+
+\*.tmp \*.temp \*.swp \*.swo \*\~
+
+# Editor and IDE files
+
+.vscode/ .idea/ \*.sublime-project \*.sublime-workspace
+
+# OS-specific files
+
+.DS_Store Thumbs.db
+
+# Testing and coverage
+
+coverage/ \*.lcov
+
+# ElizaOS-specific
+
+projects/*/data/ # Persistent agent data, if applicable projects/*/cache/ projects/\*/logs/
+
+# Dependency directories (if external plugins are used)
+
+vendor/ external/
+
+# Miscellaneous
+
+\*.bak \*.pid \*.seed \*.pid.lock
